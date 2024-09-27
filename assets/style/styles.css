@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box; 
+}
+
+h3 {
+    font-family: "Noto Serif", serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:#05ffff;
+}
+
+a:active {
+    color: #236fd8;
+}
+
+.magazine-frame {
+    width: 60vw;
+    height: 100%;
+    background-color: #E2DAD6;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px double #F5EDED;
+    min-width: 1000px;
+}
+
+.headline {
+    background-color:#7FA1C3;
+    padding: 20px;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.magazine-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: "Playfair Display", serif;
+    font-size: 175px;
+}
+
+.magazine-name > p {
+    margin: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: #7FA1C3;
+}
+
+.magazine-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+
+.sun-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.right-image {
+    grid-row: span 3;
+}
+
+.credits {
+    background-color: #6482AD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.credits > p {
+    color: #E2DAD6;
+    font-family: "Noto Serif", serif;
+    font-size: 12px;
+}
+
+.social-medias-images {
+    width: 40px;
+    height: 40px;
+}
+
+.text > p {
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+    letter-spacing: 0.6px;
+}
+
+.first-paragraph::first-letter {
+    font-size: 40px;
+    color: #6482AD;
+    float: left;
+    margin-right: 10px;
+}
+
+#first-big-picture {
+    width: 100%;
+}
+
+#second-smaller-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#third-middlest-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
